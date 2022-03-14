@@ -1,3 +1,3 @@
 # Movies-ETL
 ## Overview
-The purpose of this analysis was to extract important, descriptive data from large, "dirty" files, which will then eventually be transformed, and loaded into a new database (SQL). The project started with 2 sizable data files containing movie data throughout the years. The two datasets were cleaned by accounting for null values and 
+The purpose of this project was to extract important, descriptive data from large, "dirty" files, which will then eventually be transformed, and loaded into a new database for additional analysis (SQL). The project started with 2 sizable data files containing movie data throughout the years. The two datasets were cleaned by accounting for null values, filtering for pertinent data, merging similar columns, using regular expressions to format the data consistently, and much more. Once the two datasets were cleaned and combined, it was loaded into SQL Alchemy to run additional queries and to gain further insights.
