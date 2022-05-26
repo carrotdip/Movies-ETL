@@ -9,7 +9,7 @@ Then, a function was created to normalize the budget information utilizing regul
 The release dates of the movies were also in different formats, so another function was constructed to standardize the date formats.
 ![function](https://github.com/carrotdip/Movies-ETL/blob/4b05ff0996618261b019c4343e8603a6d194db6e/Images/function%20to%20normalize%20dates.png)
 Finally, once all the column names and values were properly formatted, the two datasets were merged. In the case that both datasets contained the same information (i.e. budget), the dataset with the least amount of nulls was used and the other dropped. 
-![merge](Images/merge dataframes and load into SQL.png)
+![merge](https://github.com/carrotdip/Movies-ETL/blob/822ba166f50a33c3b99a13e04e67728860133580/Images/merge%20dataframes%20and%20load%20into%20SQL.png)
 Once the two datasets were merged, the table was imported into SQL for additional queries.
 ![query1](https://github.com/carrotdip/Movies-ETL/blob/4b05ff0996618261b019c4343e8603a6d194db6e/Images/movies_query.png)
 ![query2](https://github.com/carrotdip/Movies-ETL/blob/4b05ff0996618261b019c4343e8603a6d194db6e/Images/ratings_query.png)
